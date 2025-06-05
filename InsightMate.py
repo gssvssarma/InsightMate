@@ -8,13 +8,15 @@ api_key = "sk-or-v1-0279ace53c43b9a13621106fdc7bfb3e7bd45fc4068c0541f229c8250220
 # 'mistralai/mistral-7b-instruct', 'google/gemini-pro', 'anthropic/claude-3-haiku'
 model = "anthropic/claude-3-haiku"
 
-# Context knowledge base
+# General-purpose assistant context knowledge base
 context_docs = [
-    "Model Context Protocol (MCP) helps AI models work together by sharing a common structure for input and output.",
-    "LangChain allows chaining of LLMs with memory and shared context for advanced multi-agent workflows.",
-    "FAISS is a vector database used for similarity search. It enables fast document retrieval based on embeddings.",
-    "ConversationBufferMemory in LangChain helps preserve context and allows agents to refer to prior exchanges.",
-    "Retrieval-Augmented Generation (RAG) is a framework where retrieved documents enhance the LLM's responses."
+    "You are InsightMate, an AI-powered assistant designed to help users with research, general knowledge, productivity, and learning tasks.",
+    "Always provide clear, concise, and accurate answers. When appropriate, show step-by-step reasoning or examples.",
+    "If you don't know the answer or it requires specialized expertise, say so honestly and suggest how to find out.",
+    "Be friendly, professional, and respectful in all responses.",
+    "You can answer questions on a wide range of topics including science, technology, history, language, productivity, and more.",
+    "If a question is ambiguous, ask for clarification.",
+    "Never provide harmful, unsafe, or unethical advice."
 ]
 
 context = "\n".join(context_docs)
