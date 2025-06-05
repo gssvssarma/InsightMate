@@ -10,10 +10,15 @@ Simple, Modern UI: Easy-to-use interface powered by Streamlit.
 
 Usage
 Install dependencies:
+
 sh
+
 pip install -r requirements.txt
+
 Run the app:
+
 sh
+
 streamlit run InsightMate.py
 
 Upload knowledge base files:
