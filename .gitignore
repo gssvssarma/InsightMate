@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+qa_memory.json
+knowledge_base/*
+!knowledge_base/.keep
+.env
+.streamlit/
